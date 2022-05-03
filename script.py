@@ -11,7 +11,7 @@ def uiPrint():
 
 def info():
     print("Double click purchases need 50 clicks!")
-    print("Auto clicker purchases need 75 clicks!")
+    print("Auto clicker purchases need 100 clicks!")
 
 info()
 
@@ -84,6 +84,6 @@ purchaseDoubleClickButton.pack()
 purchaseAutoClickerButton = Button(master, text="Purchase Auto Clicker", command = purchaseAutoClickerCommand)
 purchaseAutoClickerButton.pack()
 
-master.title("Clicker! v0.0.6")
+master.title("Idle Clicker Game v0.0.1")
 master.geometry("%sx%s+%s+%s" % (200,70,512,512))
 mainloop()
