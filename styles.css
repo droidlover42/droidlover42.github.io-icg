@@ -1,1 +1,42 @@
+#mainTitle {
+  text-align: center;
+}
+
+#timePlayed {
+  text-align: center;
+}
+
+#hoursPlayedTimerText {
+  text-align: center;
+}
+
+#minutesPlayedTimerText {
+  text-align: center;
+}
+
+#secondsPlayedTimerText {
+  text-align: center;
+}
+
+#upgradeTitle {
+  text-align: center;
+}
+
+#clickUpgrade1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#autoClickUpgrade2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#githubLinkButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
