@@ -3,20 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Idle Clicker Game</title>
- 
-<p id="demo"></p>
+    <title>Carrot Clicker</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body style="background-color: white;">
-    <script src="script.py"></script>
+    <script src="script.js"></script>
 
     <div>
-      <h1 id="mainTitle">Idle Clicker Game</h1>
+      <h1 id="mainTitle">Carrot Clicker</h1>
     </div>
     
+    <br>
+    
     <div>
-      <a id="githubLinkButton" href="https://github.com/droidlover42/droidlover42.github.io" target="blank"><button>GitHub</button></a>
+      <h1 id="upgradeTitle">Upgrades:</h1>
+
+      <h2 id="carrotFarmerUpgrade1PriceText">Carrot Farmer: <span id="clickUpgrade1Price">50</span></h2>
+      <img src="" id="clickUpgrade1" onclick="onClickUpgrade1Click()">
+
+      <br>
+      
+      <h2 id="carrotFactoryUpgrade2PriceText">Carrot Factory: <span id="carrotFactoryPrice">300</span></h2>
+      <img src="carrot_factory.jpeg" id="autoClickUpgrade2" onclick="onClickUpgrade1AutoClick()">
     </div>
-  </body>
-</html>
+
+    <br>
